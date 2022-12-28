@@ -111,3 +111,57 @@ h3{
     margin-top: 4vw;
     margin-left: 8vw;
 }
+
+@media (max-width: 700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .image{
+        height: 35vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px 10px 0 0;
+    }
+    h1{
+        margin-top: 5vh;
+    }
+    .shareButton{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 15vw;
+        align-items: center;
+        position: absolute;
+        width: 88%;
+    }
+    .shareIcon{
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+        top: 0;
+        left: 70%;
+    }
+    .icons{
+        width: 100%;
+        background: none;
+        box-shadow: none;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5vw;
+    }
+    .icons img{
+        width: 3vw;
+        height: 3vw;
+    }
+    .arrow{
+        margin-top: 7.7vh;
+        margin-left: 17vw;
+        display: none;
+    }
+}
